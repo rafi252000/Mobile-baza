@@ -15,10 +15,10 @@ const getSearch = () => {
     searchResult.innerHTML = '';
     showMoreResult.innerHTML='';
 
-    //take input value
+    // input value
     const searchInput = document.getElementById('search-input');
     const searchValue = searchInput.value.toLowerCase();
-    // error check
+    //  check error
     if (searchValue === '') {
         searchResult.innerHTML = '';
         document.getElementById('not-found').style.display = "none";
