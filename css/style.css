@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(231, 229, 229);
+    background-color: white;
 }
 
 /* nav bar  */
@@ -14,12 +14,32 @@ body{
     background-color: rgba(79, 255, 88);
 }
 .nav-text a:hover{
-    text-decoration: underline;
     color: white;
+    /* text-decoration: none; */
     
 }
-.dropdown-section a:hover{
-    color: rgb(79, 255, 88);
+
+
+.i-bg{
+    background-color: white;
+    color: black;
+}
+.i-bg:hover{
+    background-color: black;
+
+}
+
+.s-bg:hover{
+    background-color: blue;
+}
+.o-bg:hover{
+    background-color: green;
+    color: white;
+}
+.m-b-color:hover{
+    color: green;
+    /* font-size: 50px; */
+    /* border: 1px solid white; */
 }
 /* search input section  */
 #search-input{
@@ -119,4 +139,7 @@ body{
      color: rgb(160, 160, 160);
      text-align: center;
      padding: 10px;
+ }
+ .footer-text:hover{
+     color: wheat;
  }
